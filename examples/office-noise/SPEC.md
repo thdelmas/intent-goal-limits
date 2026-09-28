@@ -12,11 +12,12 @@ Between 10:00 and 12:00 nobody in the room is interrupted by speech or calls. Co
 
 ## Limits
 
-| Cost | Bearer (seat) | Seat | Balance as the bearer sees it |
-| --- | --- | --- | --- |
-| Support staff cannot take incoming calls for two hours | the support team | filled | Acceptable if calls roll to voicemail with a callback promise; not acceptable if the queue counts against them |
-| A safety alarm or a colleague asking for help is treated as noise | anyone in the room during an emergency | empty | |
-| People who think aloud lose their working mode | the two engineers who pair by talking | filled | Not acceptable as written; they asked for one bookable talking desk outside the room |
+| Cost | Bearer (seat) | Seat | Balance as the bearer sees it | Fires when |
+| --- | --- | --- | --- | --- |
+| Support staff cannot take incoming calls for two hours | the support team | filled | Acceptable if calls roll to voicemail with a callback promise; not acceptable if the queue counts against them | A missed call in the window is counted against anyone's queue |
+| A safety alarm or a colleague asking for help is treated as noise | anyone in the room during an emergency | empty | | Anyone is shushed while asking for help |
+| People who think aloud lose their working mode | the two engineers who pair by talking | filled | Not acceptable as written; they asked for one bookable talking desk outside the room | The rule goes on the wall before the desk exists |
+| Fire-safety rules on blocking doors or muting alarms | everyone the building code protects; pre-existing seat, the code is its answer | filled | Building code, read: alarms are never in scope of "noise" | Any proposed measure touches an alarm or an exit |
 
 ## Open
 

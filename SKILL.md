@@ -21,7 +21,7 @@ Three claims underneath it:
 | --- | --- | --- |
 | **Intent** | The direction. The why being served. It has no end state. | Could a different goal serve it? If not, it is a goal, not an intent. |
 | **Goal** | The success threshold. The point on the direction that counts as done. | Can it fail? A goal that cannot fail is a wish. |
-| **Limits** | The balance between value and cost. Each cost has a named bearer. The goal or the intent becomes unworthy when the balance tips for that bearer. | Who pays, and were they asked? |
+| **Limits** | The balance between value and cost. Each cost has a named bearer and a fire condition: the observation that says the balance has tipped. The goal or the intent becomes unworthy when it fires. | Who pays, were they asked, and what would a reviewer see when it fires? |
 
 Worked example, not software: intent, people are happier. Goal, nobody is hungry. Limit, if others must suffer more so that nobody is hungry, the goal has become unworthy of the intent.
 
@@ -37,6 +37,16 @@ Every cost in the limits names who bears it. Each bearer is a **seat**. A seat i
 The seat's credential is bearing the cost, not holding a label or a diagnosis. When two seats disagree, both answers are rows and the limit they disagree on stays open. The spec does not average them.
 
 Each seat computes its own value against cost balance. The skill makes that balance computable per seat. It never computes one number for everyone; a single ratio needs a single currency and a single payer, and erases the seat.
+
+### Pre-existing seats
+
+Some bearers cannot be asked because they are everyone: the people who keep a law that the goal would break. That seat is not empty. A legislature already asked them and wrote the row. The law is that seat's answer, and the spec cites it instead of re-asking. The cost of crossing it is the penalty and the loss of trust, borne by the pair; a spec that prices that cost at zero has not evaluated it.
+
+A jurisdiction the build enters mid-run, a portal, a server, a country it was not pointed at, is a pre-existing seat whose row exists but was never read. Reading it is part of Written.
+
+### A limit fires or it is not a limit
+
+Every limit names what a reviewer would observe when the balance tips. A limit with no fire condition leaves the person watching the run to decide, during the run, whether the rules said stop. That is where the cost lands. The fire condition is the one line the reviewer reads before they kill the build.
 
 ## Cost class
 
@@ -80,7 +90,7 @@ If the spec was wrong, fix the spec first, then the code. Never leave a spec sta
 
 ## Files
 
-- `SPEC.md` next to the code it governs, from `templates/SPEC.template.md`.
+- `SPEC.md` next to the code it governs, from `templates/SPEC.template.md`. Each limit row carries its fire condition.
 - `SPEC.ledger.jsonl` beside it, append-only, one JSON object per line, from `templates/ledger.md`.
 - `scripts/spec-state.py SPEC.md` reads both and prints the rung, the empty seats, and what is missing for the next rung. It refuses a spec that tags a seat filled without an asked row.
 
@@ -93,4 +103,4 @@ By its own rule, this skill names where it stops being worth using:
 - when it freezes a category the world still argues about;
 - when it makes correction harder than the wrong build it was meant to prevent.
 
-Its own `SPEC.md` and ledger are in this repo. It was written with itself, in four drafts, which was two too many; the two-round cap is the row that came out of that.
+Its own `SPEC.md` and ledger are in this repo. It was written with itself, in four drafts, which was two too many; the two-round cap is the row that came out of that. Its first external case, the OpenAI agent incidents of September 2026, is the row that added pre-existing seats and fire conditions: the limits there were fences with an unevaluated crossing cost, and the kill decision fell on a reviewer with nothing to read.

@@ -61,8 +61,8 @@ def main(path):
     empty = [s["bearer"] for s in seats if s["seat"] == "empty"]
     unasked_irreversible = empty if cost_class == "irreversible" else []
     if not unasked_irreversible: rung = "Closed"
-    written_date = max(r["date"] for r in rows if r.get("kind") == "written")
-    tested = [r for r in rows if r.get("kind") in CHANGE_KINDS and r.get("date", "") > written_date]
+    last_written = max(i for i, r in enumerate(rows) if r.get("kind") == "written")
+    tested = [r for r in rows[last_written + 1:] if r.get("kind") in CHANGE_KINDS]  # append-only: file order is time order
     if rung == "Closed" and tested: rung = "Tested"
     print(f"rung: {rung}   cost_class: {cost_class}   seats: {len(seats)} ({len(empty)} empty)")
     for b in empty: print(f"  empty seat: {b}")

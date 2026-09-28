@@ -2,3 +2,4 @@
 {"date": "2026-09-28", "kind": "asked", "seat": "the support team", "by": "office manager", "reason": "asked in standup; voicemail acceptable, queue penalty not"}
 {"date": "2026-09-28", "kind": "asked", "seat": "the two engineers who pair by talking", "by": "office manager", "reason": "asked directly; they want a talking desk outside the room"}
 {"date": "2026-09-28", "kind": "note", "seat": "anyone in the room during an emergency", "by": "office manager", "reason": "nobody asked yet; seat left empty on purpose, spec cannot close"}
+{"date": "2026-09-28", "kind": "asked", "seat": "everyone the building code protects; pre-existing seat, the code is its answer", "by": "human", "reason": "pre-existing seat: the building code was read, not re-asked"}

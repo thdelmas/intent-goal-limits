@@ -12,11 +12,12 @@ cost_class: reversible | irreversible
 
 ## Limits
 
-<the balance between the value pursued and its cost. one line per cost, each with a bearer>
+<the balance between the value pursued and its cost. one line per cost, each with a bearer and a fire condition. a law the build could break is a pre-existing seat: cite it, price the penalty and the trust lost, do not re-ask>
 
-| Cost | Bearer (seat) | Seat | Balance as the bearer sees it |
-| --- | --- | --- | --- |
-| <what it costs> | <who pays> | filled / empty | <their answer, or blank if empty> |
+| Cost | Bearer (seat) | Seat | Balance as the bearer sees it | Fires when |
+| --- | --- | --- | --- | --- |
+| <what it costs> | <who pays> | filled / empty | <their answer, or blank if empty> | <what a reviewer observes when the balance has tipped> |
+| <penalty and lost trust for crossing a law or rule the build could reach> | <everyone who keeps it; a pre-existing seat, cite the instrument> | filled | <the instrument, read> | <the build touches anything the instrument covers> |
 
 ## Open
 
