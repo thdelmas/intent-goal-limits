@@ -1,9 +1,11 @@
 ---
-name: binome-spec
+name: intent-goal-limits
 description: "Specification-driven development for a human-agent pair. A spec has three parts: intent (the direction), goal (the success threshold), limits (the balance between the value pursued and its cost, with a named bearer for every cost). No single entity can write one: the pair authors it as a binome (one proposes, the other challenges, switch, two rounds then build), and limits are set by asking the people who would pay, each of whom holds a seat that is either filled or visibly empty. Every spec carries an append-only ledger and climbs a ladder: Written, Closed, Tested. Specs change only from ledger rows, never from another draft. TRIGGERS: 'spec this', 'write the spec first', 'binome spec', 'who pays for this', 'is the spec closed', 'which seat is empty', 'spec or implementation', 'did the spec cause this bug', 'are we over-specifying', 'spec ladder'."
 ---
 
-# binome-spec: specs with seats, a ladder, and a ledger
+# intent-goal-limits: is it worth it, and who says
+
+A spec is three parts: intent, goal, limits. Everything else in this skill exists to keep those three honest.
 
 With agents doing the typing, the spec is where errors are cheap and where judgment lives. Reviewing forty lines of intent beats reviewing two thousand lines of output. This skill makes the spec the reviewed artifact, and it makes the spec honest about who pays for it.
 

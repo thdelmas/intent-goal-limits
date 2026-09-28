@@ -1,4 +1,4 @@
-# Spec: binome-spec (this skill)
+# Spec: intent-goal-limits (this skill)
 
 cost_class: reversible
 
