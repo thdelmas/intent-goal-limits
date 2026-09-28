@@ -1,0 +1,12 @@
+{"date": "2026-09-27", "kind": "proposed", "seat": "_pair", "by": "human", "reason": "v1: direction = define as much as possible; threshold = any spec is better than none; limit = specs the unknown or forbids correction"}
+{"date": "2026-09-27", "kind": "challenged", "seat": "_pair", "by": "agent", "reason": "direction is a quantity and omits the payer; threshold is met by an empty file; limit names a property, not a balance"}
+{"date": "2026-09-27", "kind": "proposed", "seat": "_pair", "by": "agent", "reason": "v2: ladder Written/Closed/Tested; build may start before Closed"}
+{"date": "2026-09-27", "kind": "challenged", "seat": "_pair", "by": "human", "reason": "use case bipolar II front: payers conflict, build-before-Closed is wrong when a wrong build is irreversible, category must not be frozen"}
+{"date": "2026-09-27", "kind": "proposed", "seat": "_pair", "by": "human", "reason": "v3: the spec and the skill aim at defining what value/cost ratio we pursue"}
+{"date": "2026-09-27", "kind": "challenged", "seat": "_pair", "by": "agent", "reason": "one ratio needs one currency and one payer and erases the seat; a ratio is won by shrinking value; keep the aim, compute per seat"}
+{"date": "2026-09-28", "kind": "proposed", "seat": "_pair", "by": "agent", "reason": "v4: Closed scoped to irreversible seats; cost class decides build timing; 'specs the unknown' narrowed to 'freezes a contested category'"}
+{"date": "2026-09-28", "kind": "limit-changed", "seat": "the authoring pair", "by": "human", "reason": "asked 'isn't v4 itself over-specifying?'; answer yes; two rounds is now the cap, later change only from a Tested row"}
+{"date": "2026-09-28", "kind": "asked", "seat": "the authoring pair", "by": "human", "reason": "the pair bears the cost of over-spec and said where it tips"}
+{"date": "2026-09-28", "kind": "asked", "seat": "the builder who has to change the spec before the code", "by": "agent", "reason": "the agent is that builder in this pair and accepted the rule"}
+{"date": "2026-09-28", "kind": "written", "seat": "_spec", "by": "agent", "reason": "v4 stands as Written; cost class reversible so build starts here; publish waits on Closed"}
+{"date": "2026-09-28", "kind": "note", "seat": "_spec", "by": "agent", "reason": "reversible only while private; cost class flips to irreversible at publish, which reopens Closed on the two empty seats"}
