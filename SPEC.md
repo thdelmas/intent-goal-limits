@@ -23,4 +23,4 @@ The balance between the value pursued and its cost. The skill is not worth using
 
 ## Open
 
-Two seats are empty and cannot be filled by the authors, since the authors are not the ones who end on the limits side of other people's specs. They stay empty until a spec written with this skill produces a row from such a person. The name of the skill is provisional. Cost class is reversible while the repo is private. Publishing is irreversible, so at publish the cost class flips and Closed then requires the two empty seats to have been asked.
+Two seats are empty and cannot be filled by the authors, since the authors are not the ones who end on the limits side of other people's specs. They stay empty until a spec written with this skill produces a row from such a person. The name of the skill is provisional. Cost class is reversible, including at publish: git commits on top. The irreversible cost of this skill lands when a spec written with it is applied to a person, and that is where its two empty seats get filled, by such a person.

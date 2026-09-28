@@ -10,3 +10,4 @@
 {"date": "2026-09-28", "kind": "asked", "seat": "the builder who has to change the spec before the code", "by": "agent", "reason": "the agent is that builder in this pair and accepted the rule"}
 {"date": "2026-09-28", "kind": "written", "seat": "_spec", "by": "agent", "reason": "v4 stands as Written; cost class reversible so build starts here; publish waits on Closed"}
 {"date": "2026-09-28", "kind": "note", "seat": "_spec", "by": "agent", "reason": "reversible only while private; cost class flips to irreversible at publish, which reopens Closed on the two empty seats"}
+{"date": "2026-09-28", "kind": "note", "seat": "_spec", "by": "human", "reason": "publishing is not irreversible, git commits on top; the irreversible cost lands when a spec written with this is applied to a person, not when the doc goes public; cost class stays reversible at publish, seats stay visibly empty"}
